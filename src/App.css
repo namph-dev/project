@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-lg;
+  background-color: #191919;
+  font-family: "Syne", sans-serif;
+  /* width: 1440px; */
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.projects img {
+  width: 100%;
+}
+
+/* color */
+.bg-primary {
+  background: #191919;
+}
+
+.bg-secondery {
+  background: #191919;
+}
+.hero-img1 {
+  background: linear-gradient(278.23deg, #ffeb7d 14.71%, #ff6f41 93.86%);
+  border: 1px solid #ffffff;
+  border-radius: 304.5px;
+  transform: rotate(50deg);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  min-width: 479.05px;
+  min-height: 635.75px;
+  /* top: 85.98px; */
+}
+.avatar {
+  position: absolute;
+  width: 491px;
+  height: 652px;
+}
+
+.bg-accent {
+  background: black;
+}
+
+.text-accent {
+  color: #7477ff;
+}
+nav li a {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 98px;
+  height: 42px;
+}
+
+nav li a:hover {
+  color: #7477ff;
+  border-bottom: 2px solid #FFFFFF;
+}
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+h1 {
+width: 554px;
+height: 144px;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.text-1 {
+width: 554px;
+height: 60px;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+color: #F3F3F3;
+}
+.text-2 {
+  width: 500px;
+  height: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #CCCCCC;
+}
+
+/* hero */
+.footer {
+  background: #0b0b0b;
+}
+
+.title {
+  text-align: left;
+}
+
+.title:before {
+  display: block;
+  float: right;
+  margin-top: 1.1em; /* half the line-height */
+  border-top: 4px solid #ffffff;
+  width: 55%;
+  content: "";
+}
+.title-1 {
+  text-align: left;
+}
+
+.title-1:before {
+  display: block;
+  float: right;
+  margin-top: 1.1em; /* half the line-height */
+  border-top: 4px solid #ffffff;
+  width: 65%;
+  content: "";
+}
+.title-2 {
+  text-align: left;
+}
+
+.title-2:before {
+  display: block;
+  float: right;
+  margin-top: 1.1em; /* half the line-height */
+  border-top: 4px solid #ffffff;
+  width: 59%;
+  content: "";
+}
